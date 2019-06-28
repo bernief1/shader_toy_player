@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{60b8b89f-6386-44bd-9593-05c5f240594e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\vmath">
+      <UniqueIdentifier>{a030c82c-2709-4845-834c-fe51cfc7cf68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\util">
+      <UniqueIdentifier>{aa88e91f-17e6-4def-a55f-74613c16efc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\external">
+      <UniqueIdentifier>{1a9c50ca-783f-49cc-b01e-125ac7a381e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\external\FreeImage">
+      <UniqueIdentifier>{01ce3196-78d9-482c-b8f6-156695023b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\external\glut">
+      <UniqueIdentifier>{87a4f7bc-f4bd-4653-829e-5be52a052334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{83523676-786d-4be7-9a62-4e4b22c2722e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\common">
+      <UniqueIdentifier>{4af66394-205c-4973-a8f6-fac49b523753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\Path_Tracing_Visibility">
+      <UniqueIdentifier>{af738a96-8413-400c-9996-017c992c84ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shadertoy_player.cpp" />
+    <ClCompile Include="..\common\vmath\vmath.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_box.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_color.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_common.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_float16.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_floatvec.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_intdiv.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_intersects.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_matrix.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_pc.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_plane.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_platform_sse.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_random.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_sampling.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_scalar.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_soa.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_sphere.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_test.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_transcendental.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_triangle.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_vec2.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_vec3.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_vec4.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_vec8.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\vmath\vmath_vec16.cpp">
+      <Filter>common\vmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\camera.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\crc.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\dds.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\fileutil.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\font.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\framebuffer.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\gui.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\imageutil.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\keyboard.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\mathutil.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\mesh.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\progressdisplay.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\raster.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsTools\util\stringutil.cpp">
+      <Filter>common\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shaders_common\shadertoy_common.h">
+      <Filter>shaders\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_box.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_color.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_common.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_float16.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_floatvec.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_intdiv.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_intersects.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_matrix.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_pc.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_plane.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_platform_sse.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_random.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_sampling.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_scalar.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_soa.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_sphere.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_test.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_transcendental.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_triangle.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_vec2.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_vec3.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_vec4.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_vec8.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\vmath\vmath_vec16.h">
+      <Filter>common\vmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\camera.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\color.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\crc.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\dds.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\fileutil.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\font.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\framebuffer.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\gui.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\imagedxt.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\imageutil.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\keyboard.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\mathutil.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\memory.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\mesh.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\progressdisplay.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\raster.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\util\stringutil.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\external\FreeImage\FreeImage.h">
+      <Filter>common\external\FreeImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\external\glut\freeglut\include\GL\freeglut.h">
+      <Filter>common\external\glut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\external\glut\freeglut\include\GL\freeglut_ext.h">
+      <Filter>common\external\glut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\external\glut\freeglut\include\GL\freeglut_std.h">
+      <Filter>common\external\glut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\external\glut\freeglut\include\GL\glext.h">
+      <Filter>common\external\glut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\external\glut\freeglut\include\GL\glut.h">
+      <Filter>common\external\glut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsTools\external\glew-2.1.0\include\GL\glew.h">
+      <Filter>common\external\glut</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders_common\shadertoy_common.glsl">
+      <Filter>shaders\common</Filter>
+    </None>
+    <None Include="shaders_common\shadertoy_vertex.glsl">
+      <Filter>shaders\common</Filter>
+    </None>
+    <None Include="shaders\Path_Tracing_Visibility\lightmap_texel_visibility_dilation.glsl">
+      <Filter>shaders\Path_Tracing_Visibility</Filter>
+    </None>
+    <None Include="shaders\Path_Tracing_Visibility\lightmap_texelIDs.glsl">
+      <Filter>shaders\Path_Tracing_Visibility</Filter>
+    </None>
+    <None Include="shaders\Path_Tracing_Visibility\scene.glsl">
+      <Filter>shaders\Path_Tracing_Visibility</Filter>
+    </None>
+    <None Include="shaders\Path_Tracing_Visibility\variance.glsl">
+      <Filter>shaders\Path_Tracing_Visibility</Filter>
+    </None>
+    <None Include="shaders\Path_Tracing_Visibility\COMMON.glsl">
+      <Filter>shaders\Path_Tracing_Visibility</Filter>
+    </None>
+    <None Include="shaders\Path_Tracing_Visibility\control_logic.glsl">
+      <Filter>shaders\Path_Tracing_Visibility</Filter>
+    </None>
+    <None Include="shaders\Path_Tracing_Visibility\final.glsl">
+      <Filter>shaders\Path_Tracing_Visibility</Filter>
+    </None>
+    <None Include="shaders\Path_Tracing_Visibility\lightmap.glsl">
+      <Filter>shaders\Path_Tracing_Visibility</Filter>
+    </None>
+    <None Include="shaders\Path_Tracing_Visibility\lightmap_texel_visibility.glsl">
+      <Filter>shaders\Path_Tracing_Visibility</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\Path_Tracing_Visibility\links.txt">
+      <Filter>shaders\Path_Tracing_Visibility</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

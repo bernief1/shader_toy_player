@@ -1,0 +1,11 @@
+i found most of the textures here:
+	https://github.com/beautypi/shadertoy-iOS-v2/tree/master/shadertoy/presets
+
+the following textures are missing:
+	GREY_NOISE_3D (32x32x32)
+	RGBA_NOISE_3D (32x32x32)
+
+note: BLUE_NOISE.png did not come from shadertoy, it was missing where i downloaded the other textures. so i copied it from here:
+	Free Blue Noise Textures
+	http://momentsingraphics.de/?p=127
+	Data\1024_1024\LDR_RGBA_0.png

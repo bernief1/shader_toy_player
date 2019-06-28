@@ -1,0 +1,29 @@
+Pathtracing info:
+https://www.scratchapixel.com/lessons/3d-basic-rendering/global-illumination-path-tracing/global-illumination-path-tracing-practical-implementation
+
+Progressive Path Tracing with Explicit Light Sampling
+https://computergraphics.stackexchange.com/questions/5152/progressive-path-tracing-with-explicit-light-sampling
+
+Path weight for direct light sampling
+https://computergraphics.stackexchange.com/questions/4288/path-weight-for-direct-light-sampling
+
+Optimally Combining Sampling Techniques for Monte Carlo Rendering (introduces bidirectional path tracing)
+https://sites.fas.harvard.edu/~cs278/papers/veach.pdf
+http://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Veach95.pdf
+
+Multiple Importance Sampling (more detail in equations)
+https://graphics.stanford.edu/courses/cs348b-03/papers/veach-chapter9.pdf
+
+Sampling spherical area lights ..
+http://www.pbr-book.org/3ed-2018/Light_Transport_I_Surface_Reflection/Sampling_Light_Sources.html
+
+Importance Sampling of Realistic Light Sources
+https://tel.archives-ouvertes.fr/tel-00977100/file/LU_HEQI_2014.pdf
+page 50-53
+
+Multiple importance sampling revisited: breaking the bounds
+https://link.springer.com/content/pdf/10.1186%2Fs13634-018-0531-2.pdf
+
+Multiple Importance Sampling
+https://blog.yiningkarlli.com/2015/02/multiple-importance-sampling.html
+

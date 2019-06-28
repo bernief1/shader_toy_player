@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseAVX2|x64">
+      <Configuration>ReleaseAVX2</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\common\GraphicsTools\util\camera.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\crc.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\dds.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\fileutil.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\font.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\framebuffer.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\gui.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\imageutil.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\keyboard.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\mathutil.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\mesh.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\progressdisplay.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\raster.cpp" />
+    <ClCompile Include="..\common\GraphicsTools\util\stringutil.cpp" />
+    <ClCompile Include="..\common\vmath\vmath.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_box.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_color.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_common.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_float16.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_floatvec.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_intdiv.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_intersects.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_matrix.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_pc.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_plane.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_platform_sse.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_random.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_sampling.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_scalar.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_soa.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_sphere.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_test.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_transcendental.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_triangle.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_vec16.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_vec2.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_vec3.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_vec4.cpp" />
+    <ClCompile Include="..\common\vmath\vmath_vec8.cpp" />
+    <ClCompile Include="shadertoy_player.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\common.h" />
+    <ClInclude Include="..\common\GraphicsTools\external\FreeImage\FreeImage.h" />
+    <ClInclude Include="..\common\GraphicsTools\external\glew-2.1.0\include\GL\glew.h" />
+    <ClInclude Include="..\common\GraphicsTools\external\glut\freeglut\include\GL\freeglut.h" />
+    <ClInclude Include="..\common\GraphicsTools\external\glut\freeglut\include\GL\freeglut_ext.h" />
+    <ClInclude Include="..\common\GraphicsTools\external\glut\freeglut\include\GL\freeglut_std.h" />
+    <ClInclude Include="..\common\GraphicsTools\external\glut\freeglut\include\GL\glext.h" />
+    <ClInclude Include="..\common\GraphicsTools\external\glut\freeglut\include\GL\glut.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\camera.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\color.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\crc.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\dds.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\fileutil.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\font.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\framebuffer.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\gui.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\imagedxt.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\imageutil.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\keyboard.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\mathutil.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\memory.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\mesh.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\progressdisplay.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\raster.h" />
+    <ClInclude Include="..\common\GraphicsTools\util\stringutil.h" />
+    <ClInclude Include="..\common\vmath\vmath.h" />
+    <ClInclude Include="..\common\vmath\vmath_box.h" />
+    <ClInclude Include="..\common\vmath\vmath_color.h" />
+    <ClInclude Include="..\common\vmath\vmath_common.h" />
+    <ClInclude Include="..\common\vmath\vmath_float16.h" />
+    <ClInclude Include="..\common\vmath\vmath_floatvec.h" />
+    <ClInclude Include="..\common\vmath\vmath_intdiv.h" />
+    <ClInclude Include="..\common\vmath\vmath_intersects.h" />
+    <ClInclude Include="..\common\vmath\vmath_matrix.h" />
+    <ClInclude Include="..\common\vmath\vmath_pc.h" />
+    <ClInclude Include="..\common\vmath\vmath_plane.h" />
+    <ClInclude Include="..\common\vmath\vmath_platform_sse.h" />
+    <ClInclude Include="..\common\vmath\vmath_random.h" />
+    <ClInclude Include="..\common\vmath\vmath_sampling.h" />
+    <ClInclude Include="..\common\vmath\vmath_scalar.h" />
+    <ClInclude Include="..\common\vmath\vmath_soa.h" />
+    <ClInclude Include="..\common\vmath\vmath_sphere.h" />
+    <ClInclude Include="..\common\vmath\vmath_test.h" />
+    <ClInclude Include="..\common\vmath\vmath_transcendental.h" />
+    <ClInclude Include="..\common\vmath\vmath_triangle.h" />
+    <ClInclude Include="..\common\vmath\vmath_vec16.h" />
+    <ClInclude Include="..\common\vmath\vmath_vec2.h" />
+    <ClInclude Include="..\common\vmath\vmath_vec3.h" />
+    <ClInclude Include="..\common\vmath\vmath_vec4.h" />
+    <ClInclude Include="..\common\vmath\vmath_vec8.h" />
+    <ClInclude Include="shaders_common\shadertoy_common.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\Path_Tracing_Visibility\COMMON.glsl" />
+    <None Include="shaders\Path_Tracing_Visibility\control_logic.glsl" />
+    <None Include="shaders\Path_Tracing_Visibility\final.glsl" />
+    <None Include="shaders\Path_Tracing_Visibility\lightmap.glsl" />
+    <None Include="shaders\Path_Tracing_Visibility\lightmap_texelIDs.glsl" />
+    <None Include="shaders\Path_Tracing_Visibility\lightmap_texel_visibility.glsl" />
+    <None Include="shaders\Path_Tracing_Visibility\lightmap_texel_visibility_dilation.glsl" />
+    <None Include="shaders\Path_Tracing_Visibility\scene.glsl" />
+    <None Include="shaders\Path_Tracing_Visibility\variance.glsl" />
+    <None Include="shaders_common\shadertoy_common.glsl" />
+    <None Include="shaders_common\shadertoy_vertex.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\Path_Tracing_Visibility\links.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19302708-3D12-4BF0-AF26-B7506CCB60DE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>shadertoy_player</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_OFFLINETOOL;_FREEIMAGE;_OPENGL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <AdditionalIncludeDirectories>..\common\;</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\common\;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_OFFLINETOOL;_FREEIMAGE;_OPENGL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <AdditionalIncludeDirectories>..\common\;</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\common\;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>__AVX__;__AVX2__;NDEBUG;_CONSOLE;_OFFLINETOOL;_FREEIMAGE;_OPENGL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalIncludeDirectories>..\common\;</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\common\;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
